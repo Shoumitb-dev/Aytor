@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primaryFont:'Josefin Sans',sans-serif;
+    --secondaryFont: 'Roboto',sans-serif;
+    --primaryColour:#FF6F61;
+    --secondaryColour:#1D1D1D;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p,span,ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--primaryFont);
+}
+/* common css ends here */
+#customNavbar ul li a{
+    color: var(--Text-Color, #11161E);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   padding: 37px 22px;
+   transition: 200ms;
+}
+#customNavbar ul li a:hover{
+    color: #FF6F61;
+}
+.iconsgrp ul li{
+    display: inline-block;
+}
+.iconsgrp ul li a{
+    margin: 0 15px;
+    color: #151A32;
+    font-size: 20px;
+}
+.iconsgrp ul li a .cartNumber{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: #FFF;
+font-size: 14px;
+border-radius: 50%;
+text-align: center;
+line-height: 18px;
+
+
+    background-color: var(--primaryColour);
+}
+.navbar_sm .logo img{
+    height: 50px;
+}
+.navbar_sm{
+   padding: 20px 0;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.navbar_sm .menu{
+    font-size: 20px;
+}
+.navbar_sm .menu button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.navbar_sm .offcanvas-header img{
+    height: 30px;
+    
+}
+.navbar_sm .offcanvas-body ul{
+    text-align: left;
+    padding-left: 20px;
+}
+.navbar_sm .offcanvas-body ul a{
+    padding: 10px 0;
+    display: block;
+    color: var(--secondaryColour);
+}
+.navbar_sm .offcanvas{
+    width: 80%;
+}
+/* banner section starts here */
+#banner .slides{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
